@@ -26,7 +26,7 @@ def main():
                 CANVAS_HEIGHT - BRICK_HEIGHT * layer, #for the next line, substract a height
                 'yellow'
             )
-        start_x = start_x + 15  #move to the next line and move inside 7
+        start_x = start_x + 15  #move to the next line and move inside 15
         layer = layer + 1    #move to the next line
         BRICKS_IN_BASE = BRICKS_IN_BASE - 1  #the next line's bricks is substracted by 1
     
